@@ -170,6 +170,59 @@ Azure Governamental:
 
 Regiões soberanas do Azure (Azure China)
 
+A Microsoft é o primeiro provedor estrangeiro de serviços de nuvem pública da China, em conformidade com as regulamentações governamentais.
+
+Recursos do Azure China:
+  Instância fisicamente separada dos serviços de nuvem do Azure operados pela 21Vianet.
+  Todos os dados permanecem dentro da China para garantir a conformidade.
+
+Recursos do Azure
+
+Os recursos do Azure são componentes como armazenamento, máquinas virtuais e redes que estão disponíveis para criar soluções de nuvem.
+
+Exemplos:
+
+  Máquinas Virtuais, Conyas de armazenamento, Redes Virtuais, Serviços de     Aplicativos, Bancos de dados SQL e Funções.
+
+Grupos de recursos
+
+Um grupo de recursos é um contêiner que você usa para gerenciar e agregar recursos em uma única unidade. 
+
+  Os recursos podem existir em apenas um grupo de recursos.
+  Os recursos podem existir em diferentes regiões. 
+  Os recursos podem ser movidos para diferentes grupos de recursos. 
+  Os aplicativos podem utilizar vários grupos de recursos.
+
+Assinaturas do Azure
+
+Uma assinatura do Azure fornece a você acesso autenticado e autorizado às contas do Azure.
+
+  Limite de cobrança: gere relatórios de cobrança e faturas separados para cada assinatura.
+  Limite do controle de acesso: gerenciar e controlar o acesso aos recursos que os usuários podem provisionar com assinaturas específicas.
+
+Grupos de gerenciamento
+
+Os grupos de gerenciamento podem incluir várias assinaturas do Azure.
+As assinaturas herdam as condições aplicadas ao grupo de gerenciamento.
+É possível oferecer suporte a 10.000 grupos de gerenciamento em um único diretório.
+Uma árvore de grupos de gerenciamento pode oferecer suporte a até seis níveis de profundidade.
+
+Serviços de computação do Azure
+
+A Computação do Azure é um serviço sob demanda que fornece recursos de computação, como discos, processadores, memória, rede e sistemas operacionais.
+
+Exemplos:
+
+Virtual (Virtuais), Aplicativo(Serviços), Contêiner(Instâncias), Serviços de Kubernetes do Azure(AKS) e Área de Trabalho(Virtual do Azure)
+
+Máquinas virtuais do Azure
+
+As máquinas virtuais do Azure (VMs) são emulações de software de computadores físicos. 
+
+Inclui processador virtual, memória, armazenamento e rede. 
+Oferta de IaaS que oferece personalização e controle total. 
+
+____________________________________________________________________
 
 
 
