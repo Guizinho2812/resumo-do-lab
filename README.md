@@ -31,7 +31,7 @@ Desvantagens: Custos altos de manutenção e necessidade de espaço físico.
 
 Modelo Cloud (Nuvem)
 
-  Definição: A infraestrutura em nuvem é baseada em servidores remotos fornecidos por provedores de nuvem como AWS, Google Cloud ou Azure. Os recursos são escaláveis e        pagam-  se conforme o uso, permitindo maior flexibilidade.
+  Definição: A infraestrutura em nuvem é baseada em servidores remotos fornecidos por provedores de nuvem como AWS, Google Cloud ou Azure. Os recursos são escaláveis e        pagam-se conforme o uso, permitindo maior flexibilidade.
   
 O modelo cloud (ou modelo de nuvem) é uma infraestrutura baseada na internet, onde a empresa ou o usuário utiliza recursos de TI de um provedor externo. Em vez de ter servidores, bancos de dados e outros sistemas dentro de suas instalações, as empresas alugam esses serviços de fornecedores de nuvem, como Amazon Web Services (AWS), Microsoft Azure ou Google Cloud. Isso permite a escalabilidade, ou seja, é possível aumentar ou diminuir a capacidade dos serviços de acordo com a necessidade, sem a necessidade de investir em infraestrutura própria. Além disso, o modelo de nuvem permite reduzir custos, melhorar a agilidade e acessar serviços avançados que seriam difíceis de implementar localmente.
 
@@ -374,10 +374,15 @@ Serviços de armazenamento do Azure
 Pontos de extremidade públicos do serviço de armazenamento
 
 Serviço de armazenamento <-------------> Ponto de extremidade público
+
 Armazenamento de Blobs  <-------------> https://<storage-account-name>.blob.core.windows.net 
-Data Lake Storage Gen 2   <-------------> https://<storage-account-name>.dfs.core windows.net  
+
+Data Lake Storage Gen 2   <-------------> https://<storage-account-name>.dfs.core windows.net 
+
 Arquivos do Azure     <-------------> https://<storage-account-name>file.core windows.net
+
 Armazenamento de filas  <-------------> https://<storage-account-name>.queue.core.windows.net
+
 Armazenamento de Tabelas <-------------> https://<storage-account-name>.table.core windows.net
 
 Camadas de acesso de armazenamento do Azure
