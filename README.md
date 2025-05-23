@@ -372,14 +372,13 @@ Serviços de armazenamento do Azure
   Tabelas do Azure: fornece uma opção de chave/atributo para o armazenamento de dados estruturados não relacionais com um design sem esquema.
 
 Pontos de extremidade públicos do serviço de armazenamento
-___________________________________________________________________________________
-| Serviço de armazenamento | Ponto de extremidade público                          |
-|  Armazenamento de Blobs  | https://<storage-account-name>.blob.core.windows.net  |
-| Data Lake Storage Gen 2  | https://<storage-account-name>.dfs.core windows.net   |
-|    Arquivos do Azure     | https://<storage-account-name>file.core windows.net   |
-|  Armazenamento de filas  | https://<storage-account-name>.queue.core.windowsnet  |
-| Armazenamento de Tabelas | https://<storage-account-name>.table.core windows.net |
-|__________________________________________________________________________________|
+
+Serviço de armazenamento <-------------> Ponto de extremidade público
+Armazenamento de Blobs  <-------------> https://<storage-account-name>.blob.core.windows.net 
+Data Lake Storage Gen 2   <-------------> https://<storage-account-name>.dfs.core windows.net  
+Arquivos do Azure     <-------------> https://<storage-account-name>file.core windows.net
+Armazenamento de filas  <-------------> https://<storage-account-name>.queue.core.windows.net
+Armazenamento de Tabelas <-------------> https://<storage-account-name>.table.core windows.net
 
 Camadas de acesso de armazenamento do Azure
 
