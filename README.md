@@ -116,11 +116,16 @@ O gerenciamento da nuvem diz respeito a gerenciar seus recursos de nuvem. Por ex
 Escalar automaticamente a implantação de recursos com base na necessidade.
 Implantar recursos com base em um modelo pré-configurado, removendo a necessidade de configuração manual.
 
-O gerenciamento na nuvem diz respeito à maneira de gerenciar seu ambiente de nuvem e seus recursos. Por exemplo:
+O gerenciamento na nuvem diz respeito à maneira de gerenciar seu ambiente de nuvem e seus recursos. 
+
+Por exemplo:
 
   Por meio de um portal da Web.
+  
   Usando uma interface de linha de comando.
+  
   Usando APIs.
+  
   Usando o PowerShell.
 _____________________________________________________________________________________________________________________________________________________________________________
 
@@ -131,9 +136,11 @@ O que são os Modelos de Serviço em Nuvem?
 Definição: Modelos de serviço em nuvem definem o nível de controle que a empresa tem sobre a infraestrutura e os serviços fornecidos pelo provedor de nuvem. Eles ajudam a escolher a solução mais adequada às necessidades do negócio, podendo envolver diferentes níveis de abstração e responsabilidades.
 
   Golden Rules: Regras universais para escolher e implementar os modelos de serviço com base nas necessidades de controle, custo e escalabilidade.
+  
   Exemplo: "Escolha o modelo de serviço adequado conforme o nível de controle necessário."
 
   House Rules: Regras específicas para cada organização com base em sua arquitetura e objetivos. 
+  
   Exemplo: "Para aplicativos mais complexos, prefira PaaS para abstração e gerenciamento facilitado."
 
 IaaS (Infrastructure as a Service)
@@ -143,9 +150,11 @@ Definição: IaaS oferece infraestrutura de TI básica como serviço, fornecendo
 Exemplos:
 
   Amazon EC2, Google Compute Engine, Microsoft Azure VMs.
+  
   Armazenamento de dados com serviços como Amazon S3 ou Google Cloud Storage.
 
 Vantagens: Controle total sobre a infraestrutura, escalabilidade e flexibilidade.
+
 Desvantagens: Requer gestão de servidores e configurações, mais responsabilidade do que PaaS ou SaaS.
 
 PaaS (Platform as a Service)
@@ -155,9 +164,11 @@ Definição: PaaS oferece uma plataforma de desenvolvimento completa na nuvem, p
 Exemplos:
 
   Google App Engine, Microsoft Azure App Services, AWS Elastic Beanstalk.
+  
   Ferramentas de banco de dados como Amazon RDS ou Google Cloud SQL.
   
 Vantagens: Simplificação no desenvolvimento, abstração da infraestrutura e foco no desenvolvimento do aplicativo.
+
 Desvantagens: Menos controle sobre a infraestrutura, limitações na personalização de configurações.
 
 SaaS (Software as a Service)
@@ -167,9 +178,11 @@ Definição: SaaS entrega software e aplicações completas pela nuvem, sendo ac
 Exemplos:
 
   Google Workspace, Microsoft Office 365, Salesforce.
+  
   Ferramentas de comunicação como Slack ou Zoom.
 
 Vantagens: Fácil implementação, sem necessidade de gestão de infraestrutura, pagamento por uso.
+
 Desvantagens: Dependência de internet, menor controle sobre o software e dados.
 
 BaaS (Backend as a Service)
@@ -181,6 +194,7 @@ Exemplos:
   Firebase, AWS Amplify, Backendless.
 
 Vantagens: Rapidez no desenvolvimento, gerenciamento simplificado de backend.
+
 Desvantagens: Dependência do provedor, limitações na personalização.
 
 FaaS (Function as a Service)
