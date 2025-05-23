@@ -189,6 +189,7 @@ Exemplos:
   AWS Lambda, Azure Functions, Google Cloud Functions.
   
 Vantagens: Escalabilidade automática, pagamento por execução, redução da sobrecarga de gerenciamento de infraestrutura.
+
 Desvantagens: Limitações em tempo de execução e complexidade na manutenção de funções pequenas e event-driven.
 
 DBaaS (Database as a Service)
@@ -200,29 +201,39 @@ Exemplos:
   Amazon RDS, Azure SQL Database, Google Cloud SQL.
   
 Vantagens: Facilidade de escalabilidade, gerenciamento simplificado de backups e atualizações.
+
 Desvantagens: Menor controle sobre a configuração do banco de dados e personalização.
 
 _____________________________________________________________________________________________________________________________________________________________________________
 
 Regiões
 
-  O Azure oferece mais regiões globais do que qualquer outro provedor de nuvem, com mais de 60 regiões representando mais de 140 países
+  O Azure oferece mais regiões globais do que qualquer outro provedor de nuvem, com mais de 60 regiões representando mais de 140 países.
+  
   As regiões são compostas de um ou mais datacenters muito próximos.
+
   Eles fornecem flexibilidade e escala para reduzir a latência do cliente.
+  
   As regiões preservam a residência dos dados com uma oferta abrangente de conformidade.
 
 Zonas de disponibilidade
 
   Fornece proteção contra tempo de inatividade devido a falha do datacenter.
+  
   Separe fisicamente os datacenters dentro da mesma região.
+  
   Cada datacenter é equipado com alimentação, resfriamento e rede independentes. 
+  
   Conectadas por meio de redes privadas de fibra óptica.
 
 Pares de regiões
 
   No mínimo 300 milhas de separação entre pares de regiões.
+  
   Replicação automática para alguns serviços.
+  
   Recuperação de região priorizada em caso de interrupção.
+  
   As atualizações são distribuídas sequencialmente para minimizar o tempo de inatividade.
 
 Regiões soberanas do Azure (serviços Governamentais dos EUA)
@@ -232,7 +243,9 @@ Regiões soberanas do Azure (serviços Governamentais dos EUA)
 Azure Governamental:
 
   Instância separada do Azure.
+  
   Fisicamente isolada de implantações que não sejam do governo dos EUA.
+  
   Acessível somente a pessoal verificado e autorizado.
 
 Regiões soberanas do Azure (Azure China)
@@ -242,6 +255,7 @@ A Microsoft é o primeiro provedor estrangeiro de serviços de nuvem pública da
 Recursos do Azure China:
 
   Instância fisicamente separada dos serviços de nuvem do Azure operados pela 21Vianet.
+  
   Todos os dados permanecem dentro da China para garantir a conformidade.
 
 Recursos do Azure
@@ -257,8 +271,11 @@ Grupos de recursos
 Um grupo de recursos é um contêiner que você usa para gerenciar e agregar recursos em uma única unidade. 
 
   Os recursos podem existir em apenas um grupo de recursos.
-  Os recursos podem existir em diferentes regiões. 
-  Os recursos podem ser movidos para diferentes grupos de recursos. 
+  
+  Os recursos podem existir em diferentes regiões. 
+  
+  Os recursos podem ser movidos para diferentes grupos de recursos. 
+  
   Os aplicativos podem utilizar vários grupos de recursos.
 
 Assinaturas do Azure
@@ -266,13 +283,17 @@ Assinaturas do Azure
 Uma assinatura do Azure fornece a você acesso autenticado e autorizado às contas do Azure.
 
   Limite de cobrança: gere relatórios de cobrança e faturas separados para cada assinatura.
+  
   Limite do controle de acesso: gerenciar e controlar o acesso aos recursos que os usuários podem provisionar com assinaturas específicas.
 
 Grupos de gerenciamento
 
   Os grupos de gerenciamento podem incluir várias assinaturas do Azure.
+  
   As assinaturas herdam as condições aplicadas ao grupo de gerenciamento.
+  
   É possível oferecer suporte a 10.000 grupos de gerenciamento em um único diretório.
+  
   Uma árvore de grupos de gerenciamento pode oferecer suporte a até seis níveis de profundidade.
 
 Serviços de computação do Azure
@@ -297,6 +318,7 @@ Máquinas virtuais do Azure
 As máquinas virtuais do Azure (VMs) são emulações de software de computadores físicos. 
 
 Inclui processador virtual, memória, armazenamento e rede. 
+
 Oferta de IaaS que oferece personalização e controle total. 
 
 Serviços de contêineres do Azure
@@ -304,7 +326,9 @@ Serviços de contêineres do Azure
 Os contêineres do Azure fornecem um ambiente leve e virtualizado que não exige o gerenciamento do sistema operacional e pode responder a alterações sob demanda.
 
   Instâncias de Contêiner do Azure: uma oferta de PaaS que executa um contêiner ou pod de contêineres no Azure.
+  
   Aplicativos de Contêiner do Azure: uma oferta de PaaS, como instâncias de contêineres, que pode balancear a carga e escalar.
+  
   Serviço de Kubernetes do Azure: um serviço de orquestração para contêineres com arquiteturas distribuídas e grandes volumes de contêineres. 
 
 Azure Functions
@@ -316,6 +340,7 @@ Serviços de Aplicativo do Azure
 Os Serviços de Aplicativos do Azure consistem em uma plataforma totalmente gerenciada para criar, implantar e dimensionar aplicativos Web e APIs rapidamente. 
 
   Trabalha com .NET, .NET Core, Node.js, Java, Python ou php.
+  
   Oferta de PaaS com requisitos de nível corporativo de desempenho, segurança e conformidade.
 
 Serviços de rede do Azure
@@ -323,16 +348,23 @@ Serviços de rede do Azure
 A Rede Virtual do Azure (VNet) permite que os recursos do Azure se comuniquem uns com os outros, com a Internet e com as redes locais.
 
   Pontos de extremidade públicos, acessíveis de qualquer lugar na Internet.
+  
   Pontos de extremidade privados, acessíveis somente de dentro da sua rede.
+  
   As sub-redes virtuais segmentam sua rede para atender às suas necessidades.
+  
   O emparelhamento de rede conecta suas redes privadas diretamente.
 
 DNS do Azure
 
   Confiabilidade e desempenho aproveitando uma rede global de servidores de nome DNS usando a rede Anycast.
+  
   A segurança do DNS do Azure baseia-se no gerenciador de recursos do Azure, habilitando o controle de acesso baseado em função e o monitoramento e o registro em log.
+  
   Facilidade de uso para gerenciar seus recursos externos e do Azure com um único serviço DNS.
+  
   As redes virtuais personalizáveis permitem que você use nomes de domínio privados e totalmente personalizados em suas redes virtuais privadas.
+  
   Os registros de alias dão suporte a conjuntos de registros de alias para apontar diretamente para um recurso do Azure.
 
 _____________________________________________________________________________________________________________________________________________________________________________
@@ -342,33 +374,35 @@ Armazenamento: domínio de objetivo
 Descrever os benefícios e o uso
 
   Comparar os serviços de armazenamento do Azure.
+  
   Descrever as camadas de armazenamento.
+  
   Descrever as opções de redundância.
+  
   Descrever as opções de conta de armazenamento e os tipos de armazenamento.
+  
   Identificar opções para mover arquivos, incluindo o AzCopy, o Gerenciador de Armazenamento do Azure e a Sincronização de Arquivos do Azure.
+  
   Descrever as opções de migração, incluindo as Migrações para Azure e o Azure Data Box.
 
 Contas de armazenamento
 
   Deve ter um globalmente nome exclusivo.
+  
   Fornecer acesso à Internet em todo o mundo.
+  
   Determinar os serviços de armazenamento e as opções de redundância.
-
-Redundância de armazenamento
-___________________________________________________________________________________________________________________________________________________________________
-|              Configuração de redundância               |                Implantação               |                     Durabilidade                            |
-|       LRS (armazenamento com redundância local)        | Datacenter individual na região primária |                          11 noves                           |
-|      ZRS (armazenamento com redundância de zona)       | Três zonas de disponibilidade na região primária |                       12 noves                      |
-|     GRZ (armazenamento com redundância geográfica)     |Datacenter único no primário e região secundária |                         16 noves                     |
-| GZRS (armazenamento com redundância de zona geográfica | Três zonas de disponibilidade na região primária e um único datacenter na região secundária | 16 noves | 
-|_________________________________________________________________________________________________________________________________________________________________|
 
 Serviços de armazenamento do Azure
 
   Blob do Azure: otimizado para o armazenamento de quantidades massivas de dados não estruturados, como texto ou dados binários.
+  
   Disco do Azure: fornece discos para máquinas virtuais, aplicativos e outros serviços acessarem e utilizarem.
+  
   Fila do Azure: serviço de armazenamento de mensagens que fornece armazenamento e recuperação para grandes quantidades de mensagens, cada uma com até 64 KB.
+  
   Arquivos do Azure: configura um compartilhamento de arquivos de rede altamente disponível que pode ser utilizado usando o protocolo Bloco de Mensagens do Servidor.
+  
   Tabelas do Azure: fornece uma opção de chave/atributo para o armazenamento de dados estruturados não relacionais com um design sem esquema.
 
 Pontos de extremidade públicos do serviço de armazenamento
@@ -388,14 +422,21 @@ Armazenamento de Tabelas <-------------> https://<storage-account-name>.table.co
 Camadas de acesso de armazenamento do Azure
 
   Frequente: Otimizada para armazenamento de dados acessados com frequência
+  
   Esporádico:  Otimizada para armazenamento de dados acessados com pouca frequência e armazenados por pelo menos 30 dias.
+  
   Frio: Otimizado para o armazenamento de dados acessados com pouca frequência e armazenados por pelo menos 90 dias.
+  
   Arquivo Morto: Otimizado para o armazenamento de dados acessados raramente e armazenados por pelo menos 180 dias com requisitos de latência flexíveis.
 
 Azure Data Box
 
   Armazenar até 80 terabytes de dados.
+  
   Mova os backups de recuperação de desastre para o Azure.
+  
   Proteja seus dados em uma caixa robusta durante o trânsito.
+  
   Migre dados do Azure para conformidade ou necessidades regulatórias.
+  
   Migre dados para o Azure de locais remotos com conectividade limitada ou sem conectividade.
