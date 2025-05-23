@@ -27,6 +27,7 @@ Exemplos:
   Administração e manutenção interna.
   
 Vantagens: Maior controle e personalização.
+
 Desvantagens: Custos altos de manutenção e necessidade de espaço físico.
 
 Modelo Cloud (Nuvem)
@@ -41,6 +42,7 @@ Exemplos:
   Armazenamento e processamento de dados na nuvem.
 
 Vantagens: Custos mais baixos, escalabilidade e flexibilidade.
+
 Desvantagens: Dependência da conexão com a internet.
 
 Modelo Hybrid (Híbrido)
@@ -55,6 +57,7 @@ Exemplos:
   Conexões seguras entre servidores locais e provedores de nuvem.
 
 Vantagens: Flexibilidade de escolher o que fica onde, de acordo com as necessidades.
+
 Desvantagens: Complexidade na gestão.
 
 _____________________________________________________________________________________________________________________________________________________________________________
